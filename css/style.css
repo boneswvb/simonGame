@@ -1,0 +1,150 @@
+#audio-resources {
+  display: none;
+}
+.heading {
+  text-align:center;
+  background: lightblue;
+  height:40px;
+  font-family: lobster;
+  color:blue;
+}
+
+#content {
+  background: linear-gradient(lightblue,blue);
+  padding-bottom:40px;
+  padding-top:40px;
+ }
+
+#simon-game {
+  width: 450px;
+  height: 450px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 50%;
+  background-color: gray;
+  position: relative;
+  overflow: hidden;
+  margin-left:425px;
+}
+
+#quadrant-grid {
+  border-collapse: collapse;
+  width: 100%;
+  height: 100%;
+}
+
+.top-quadrant {
+  border-bottom: 10px solid black;
+}
+
+.bottom-quadrant {
+  border-top: 10px solid black;
+}
+
+.left-quadrant {
+  border-right: 10px solid black;
+}
+
+.right-quadrant {
+  border-left: 10px solid black;
+}
+
+#quadrant-grid td {
+  background-color: rgba(255, 0, 255, 0.5);
+  width: 50%;
+  height: 50%;
+  padding: 0;
+}
+
+.quadrant {
+  border-width: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#green-quadrant {
+  background-color: darkgreen
+}
+
+#green-quadrant.highlighted {
+  background-color: limegreen
+}
+
+#red-quadrant {
+  background-color: darkred
+}
+
+#red-quadrant.highlighted {
+  background-color: red
+}
+
+#yellow-quadrant {
+  background-color: darkkhaki
+}
+
+#yellow-quadrant.highlighted {
+  background-color: yellow
+}
+
+#blue-quadrant {
+  background-color: darkblue
+}
+
+#blue-quadrant.highlighted {
+  background-color: blue
+}
+
+#control-pad {
+  box-sizing: border-box;
+  width: 50%;
+  height: 50%;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 50%;
+  background: linear-gradient(lightblue,blue);
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  top: 25%;
+  bottom: 25%;
+  z-index: 1;
+  padding: 8%;
+}
+
+#text-display {
+  text-align:center;
+}
+.fa {
+  padding-right:5px;
+  color:green;
+}
+
+#start {
+  margin-left:35px;
+}
+
+#show-hint {
+  margin-left:21px;
+}
+
+#insta-win {
+  margin-left:15px;
+}
+
+.label {
+  margin-left:22px;
+  color: black;
+  font-style:bold;
+}
+
+.center {
+  text-align:center;
+  background-color:blue;
+  color:black;
+}
+
+a {
+  color:black;
+}

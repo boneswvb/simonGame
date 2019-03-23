@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Simon Game</title>
+  
+  
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+   <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/> 
+
+<div id="audio-resources">
+  <audio id="sound1" preload="auto">
+    <source src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3" type="audio/mpeg">
+  </audio>
+
+  <audio id="sound2" preload="auto">
+    <source src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3" type="audio/mpeg">
+  </audio>
+
+  <audio id="sound3" preload="auto">
+    <source src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3" type="audio/mpeg">
+  </audio>
+
+  <audio id="sound4" preload="auto">
+    <source src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3" type="audio/mpeg">
+  </audio>
+  
+  <audio id="error-sound" preload="auto">
+    <source src="http://freesound.org/data/previews/142/142608_1840739-lq.mp3" type="audio/mpeg">
+  </audio>
+  
+  <audio id="victory-sound" preload="auto">
+    <source src="http://freesound.org/data/previews/342/342218_5865517-lq.mp3" type="audio/mpeg">
+  </audio>
+  
+  <audio id="denied-sound" preload="auto">
+    <source src="https://freesound.org/data/previews/249/249300_4404552-lq.mp3" type="audio/mpeg">
+  </audio>
+</div>
+
+<div class="heading">
+    
+  <h1>Simon Game</h1>
+    
+</div>
+
+<div id="content">
+  <div id="simon-game">
+    <table id="quadrant-grid">
+      <tr>
+        <td class="top-quadrant left-quadrant">
+          <button id="green-quadrant" class="quadrant"></button>
+        </td>
+        <td class="top-quadrant right-quadrant">
+          <button id="red-quadrant" class="quadrant"></button>
+        </td>
+      </tr>
+      <tr>
+        <td class="bottom-quadrant left-quadrant">
+          <button id="yellow-quadrant" class="quadrant"></button>
+        </td>
+        <td class="bottom-quadrant right-quadrant">
+          <button id="blue-quadrant" class="quadrant"></button>
+        </td>
+      </tr>
+    </table>
+
+    <div id="control-pad">
+      <div id="text-display"></div>
+
+      <button id="start" type="button" class="btn btn-success"><i class="fa fa-stop-circle"></i>Start</button>
+      <button id="show-hint" type="button"class="btn btn-info"><i class="fa fa-question"></i>Show Hint</button>
+      <button id="insta-win" type="button"class="btn btn-danger"><i class="fa fa-close"></i>Instant-win!</button><br>
+
+      <label class="label" for="strict-mode">Strict mode:</label>
+      <input id="strict-mode" name="strict-mode" type="checkbox">
+    </div>
+  </div>
+</div>
+<footer>
+  <div>
+    <p class="center">Recreated by <a href="https://codepen.io/Bones1/full/BmLKEB/" target="_blank" >Wim von Benecke</a></p>
+    </div>
+  </footer>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='js/bwzqde.js'></script>
+<script src='js/vmweqd.js'></script>
+<script src='js/wzoapv.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
